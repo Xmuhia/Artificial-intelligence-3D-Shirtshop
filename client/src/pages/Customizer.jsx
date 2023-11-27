@@ -70,6 +70,8 @@ const Customizer = () => {
 
 
             const data = await response.json();
+            console.log('Backend Response:', data);
+
 
 
             if (data.photo) {
