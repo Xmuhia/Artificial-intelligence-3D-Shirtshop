@@ -4,5 +4,8 @@
   },
   "scripts": {
     "build": "vite build --out-dir dist"
+  },
+  "devDependencies": {
+    "vite": "^5.0.3"
   }
 }
