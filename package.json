@@ -3,7 +3,8 @@
     "react-loader-spinner": "^5.4.5"
   },
   "scripts": {
-    "build": "vite build --out-dir dist"
+    "dev": "vite",
+    "build": "vite build && mv dist/* public/"
   },
   "devDependencies": {
     "vite": "^5.0.3"
