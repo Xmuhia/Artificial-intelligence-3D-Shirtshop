@@ -4,12 +4,15 @@ import react from '@vitejs/plugin-react';
 export default defineConfig({
   plugins: [react()],
   build: {
-    outDir: 'dist', 
+    outDir: 'dist',
+    rollupOptions: {
+      input: '/src/index.html',
+    },
   },
   resolve: {
     alias: {
-      '@': '/src', 
+      '@': '/src',
     },
   },
-  main: 'src/main.jsx', 
+  main: 'src/main.jsx',
 });
