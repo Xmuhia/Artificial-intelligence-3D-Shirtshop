@@ -6,7 +6,7 @@ export default defineConfig({
   build: {
     outDir: 'dist',
     rollupOptions: {
-      input: '/src/main.jsx', // Pointing to the main JavaScript file
+      input: '/src/client/index.html', // Adjusted path
     },
   },
   resolve: {
