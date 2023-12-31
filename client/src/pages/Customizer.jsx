@@ -58,7 +58,7 @@ const Customizer = () => {
             // call our backend to generate an AI image
             setGeneratingImg(true);
 
-            const response = await fetch('http://localhost:5000/api/v1/dalle', {
+            const response = await fetch('https://artificial-intelligence-3-d-shirtshop.vercel.app/api/v1/dalle', {
                 method: 'POST',
                 headers: {
                     'Content-Type': 'application/json'
