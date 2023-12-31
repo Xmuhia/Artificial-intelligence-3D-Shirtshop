@@ -6,7 +6,8 @@ export default defineConfig({
   build: {
     outDir: 'dist',
     rollupOptions: {
-      main: './src/main.jsx' 
+      main: './src/main.jsx',
+      external: ['react-loader-spinner']
     },
   },
   resolve: {
