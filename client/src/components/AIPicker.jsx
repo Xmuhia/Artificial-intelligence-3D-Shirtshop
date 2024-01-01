@@ -1,6 +1,6 @@
 import React from 'react';
 import CustomButton from './CustomButton';
-import { InfinitySpin } from 'react-loader-spinner';
+
 
 const AIPicker = ({ prompt, setPrompt, generatingImg, handleSubmit }) => {
   return (
@@ -17,10 +17,6 @@ const AIPicker = ({ prompt, setPrompt, generatingImg, handleSubmit }) => {
         {generatingImg ? (
           <div>
             <p style={{ textAlign: 'center' }} > A.I. is Creating... </p>
-            <InfinitySpin 
-              width='100'
-              color="#000000"
-            />
           </div>
         ) : (
           <>
