@@ -1,6 +1,6 @@
 import React from 'react';
 import CustomButton from './CustomButton';
-import { InfinitySpin } from 'react-loader-spinner/dist/loader/InfinitySpin';
+import { InfinitySpin } from 'react-loader-spinner';
 
 const AIPicker = ({ prompt, setPrompt, generatingImg, handleSubmit }) => {
   return (
