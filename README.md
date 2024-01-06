@@ -5,7 +5,7 @@ Welcome to the 3D A.I. Shirt Shop application! Dive into a unique shopping exper
 
 
 ## Demo
-![Featured Picture](https://imgur.com/a/q5sTIhT)
+<img src="image.png" width="200">
 ## 🌐 Visit the site:
 aishirtshop.vercel.app/
 
